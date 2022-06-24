@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Cormorant Garamond',serif;
+}
+
+.replahotel_navbar{
+
+    background-color: rgba(255, 255, 255, 0.6)!important;
+   
+}
+
+.replahotel_navbar div, .replahotel_navbar ul {
+
+    background-color: transparent !important;
+}
+
+.replahotel_contenedor_sec_1{
+    padding: 5%;
+}
+
+.replahotel_contenedor_sec_1 h2{
+   font-size: 200%;
+
+}
+
+.replahotel_contenedor_sec_1 p{
+    font-size:  150%;
+}
+
+
+
+.replahotel_cont_sec_link{
+    padding: 5%;
+}
+.replahotel_cont_sec_link a{
+    width: 200px;
+}
+
+.replahotel_contenedor_sec_1 hr{
+    border-top: 1px solid rgba(204, 24, 24, 1);
+}
+
+.btn-whats{
+
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+
+
+}
+
+
+.btn-ubi{
+
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 100px;
+    background: #040404;
+    color: rgb(215, 19, 19);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+
+
+}
+
+.btn-insta{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 30px;
+    background: #fff;
+    color: rgb(243, 71, 137);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+
+}
+
+.btn-face{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 100px;
+    background: #ffffff;
+    color: rgb(56, 7, 250);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.Seccionpie{
+    margin:15%;
+}
+
