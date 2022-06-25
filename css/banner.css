@@ -116,3 +116,14 @@
 .replahotel-img{
 padding: 5%;
 }
+
+.titulos-modal h2, .titulos-modal h5,.titulos-modal p{
+    color: rgb(255, 255, 255);
+   
+}
+
+.lineasec hr{
+
+    border-top: 1px solid rgba(204, 24, 24, 1);
+
+}
