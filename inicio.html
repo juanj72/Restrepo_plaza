@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="img/logo.png">
 
+        <link rel="stylesheet" href="ext/aos.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -23,6 +25,7 @@
     <body class="fondo">
         <script src="ext/bootstrap/js/jqery.js"></script>
         <script src="ext/bootstrap/js/bootstrap.min.js"></script>
+        <script src="ext/aos.js"></script>
         <script src="js/index.js"></script>
         <script src="https://kit.fontawesome.com/fb13d0ebf8.js"
             crossorigin="anonymous"></script>
@@ -39,7 +42,7 @@
         <header>
             <nav class="replahotel_navbar navbar navbar-expand-lg navbar-light
                 bg-light fixed-top">
-                <a class="navbar-brand" href="inicio.html">Rp</a>
+                <a class="navbar-brand" href="#ind">Rp</a>
                 <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -47,62 +50,59 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse"
+                <div   class="collapse navbar-collapse"
                     id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
 
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Nosotros<span
+                            <a class="nav-link" href="sistiostur.html">Lugares de interes<span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contacto <span
+                            <a class="nav-link" href="#">Acerca de<span
                                     class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#"
-                                id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                ver mas
-                            </a>
-                            <div class="dropdown-menu"
-                                aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else
-                                    here</a>
-                            </div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">creditos    <span
+                                    class="sr-only">(current)</span></a>
                         </li>
 
+                        
+                     
+
                     </ul>
+                    <a class="btn btn-outline-success" target="_blank" type="btn" href="https://api.whatsapp.com/send?phone=573214893676&text=hola!,%20quiero%20reservar,%20dame%20informaci%C3%B3n."><b>RESERVAR</b></a>
 
                 </div>
+               
             </nav>
         </header>
         <section>
-            <div class="replahotel">
-                <div class="replahotelsombra">
+            <div class="replahotel" id="ind" >
+                <div  class="replahotelsombra" >
                     <h1>RESTREPO PLAZA</h1>
                     <hr/>
                         <h1>HOTEL</h1>
                         <img src="img/logo.png" alt="" width="150" height="110">
                         <hr/>
+                        <a type="button" target="_blank" class="btn btn-success" href="https://api.whatsapp.com/send?phone=573214893676&text=hola!,%20quiero%20reservar,%20dame%20informaci%C3%B3n."><b>RESERVA YA!</b></a>
 
                             <div class="replahotel_cont_banner_link">
-                                <a href="" class="replahotel_banner_link">inicio</a>
-                                <a href="" class="replahotel_banner_link_1">habitaciones</a>
-                                <a href="" class="replahotel_banner_link_2">Cotizacion</a>
+                                <a href="#inicio" class="replahotel_banner_link">inicio</a>
+                                <a href="#reseña" class="replahotel_banner_link_1">Reseña</a>
+                                <a href="#nosotros" class="replahotel_banner_link_2">Nosotros</a>
+                                <a href="#servicios" class="replahotel_banner_link_2">Servicios</a>
                             </div>
                         </div>
-                    </div>
+                </div>
                 </section>
                 <section class="">
-                    <div class="container">
-                        <div class="row replahotel_contenedor_sec_1">
-                            <div class="col-md-9">
+                    <div class="container" id="inicio">
+                        <div  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"  class="row replahotel_contenedor_sec_1">
+                            <div  class="col-md-9">
                                 <h2><b>Comodidad, al alcance de su bolsillo.</b></h2>
                                 <p><i>No nos enfocamos en la competencia, nos
                                         enfocamos en nuestro cliente</i></p>
@@ -122,9 +122,9 @@
                 </section>
 
                 <section>
-                    <div class="container">
-                        <div class="row replahotel_contenedor_sec_1">
-                            <div class="col-md-6">
+                    <div data-aos="fade-up-right" class="container" >
+                        <div class="row replahotel_contenedor_sec_1" id="reseña">
+                            <div class="col-md-6" >
                                 <h2><b>Reseña</b> </h2>
                                 <hr/>
                                     <p>Estamos ubicados en el barrio manantial,
@@ -144,7 +144,7 @@
                         </div>
                     </section>
                     <section class="Seccionpie">
-                        <div class="replahotel-cont-banner-sec-3">
+                        <div class="replahotel-cont-banner-sec-3" id="nosotros">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-4">
@@ -240,7 +240,7 @@
                     </section>
 
                     <section>
-                        <div class="container">
+                        <div class="container" id="servicios">
                             <div class="row text-center lineasec">
                                 <div class="col-md-12">
                                     <hr/>
@@ -250,17 +250,17 @@
                                 </div>
                             </div>
                             <div class="row text-center">
-                                <div class="col-md-4">
+                                <div data-aos="zoom-in-right" class="col-md-4">
                                     <img src="img/tv.jpg" class="img-fluid" alt="">
                                     <h3><b>Television + ventilacion</b> </h3>
                                     <p>Television de alta calidad pantalla plana + ventilador </p>
                                 </div>
-                                <div class="col-md-4">
+                                <div data-aos="zoom-in-right" class="col-md-4">
                                     <img src="img/Internet.webp"  class="img-fluid" alt="">
                                     <h3> <b>internet </b></h3>
                                     <p>servicio de internet de alta velocidad, comparable a la velocidad industrial</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div data-aos="zoom-in-right" class="col-md-4">
                                     <img src="img/alojamiento.jpg" class="img-fluid" alt="">
                                     <h3><b>Atencion las 24 horas</b> </h3>
                                     <p>te atendemos en el momento que necesites</p>
@@ -283,18 +283,36 @@
 
                                     </div>
                                     <div class="col-md-3">
-                                        <h2>Sitios de interes</h2>
-                                        <a href="http://www.restrepo-meta.gov.co">Alcaldia municipal</a>
-                                        <a href="https://www.jarainmobiliaria.com">jarainmobiliaria Servicios integrales</a>
+                                        <h2><b>Sitios de interes</b></h2>
+                                        <p><a href="http://www.restrepo-meta.gov.co">Alcaldia municipal</a></p>
+                                        <p><a href="https://www.jarainmobiliaria.com">jarainmobiliaria Servicios integrales</a></p>
 
 
                                     </div>
-                                    <div class="col-md-3"></div>
-                                    <div class="col-md-3"></div>
+                                    <div class="col-md-3">
+                                        <h2><b>Recomendado</b></h2>
+                                        <p><a href="https://www.viajaporcolombia.com/sitios-turisticos/meta/restrepo_300/#:~:text=Es%20una%20hermosa%20granja%20ecológica,que%20conduce%20a%20San%20Nicolás.">¿que visitar en Restrepo meta?</a></p>
+                                        <p><a href="https://www.facebook.com/bioparquelosocarros/">Bioparque los Ocarros</a></p>
+                                        <p><a href="https://www.reservaonline.support/gramalote/">grmalote</a></p>
+                                        <p><a href="https://restaurantes.guiabbb.co/Villavicencio/Restrepo-Meta/">Gastronomia</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-3 cont-img-footer">
+                                            <h3><b>Restrepo bello</b></h3>
+                                            <img src="img/logo.png" class="img-fluid" alt="">
+                                            <p>Cultura unica</p>
+                                            <p>excelente ambiente</p>
+                                                                                        
+                                        </div>
+
+                                    </div>
                                 </div>
 
                             </div>
 
+                        </div>
+                        <div class="creditos">
+                            <a href=""><b>Desarrollador: Juan José Jara Alvarez</b> </a>
                         </div>
                         
                     </footer>
@@ -302,7 +320,7 @@
 
 
                     <a target="_blank" class="btn-whats"
-                        href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2Faepkc8%3Ffbclid%3DIwAR2hAkk7l6rjeH6IF9MoaFm2QXStXhCz6emMUvcDumIKaTkZMWcPwoIJ8tk&h=AT10mc0GgwMvzYL4jdJJ_E2GU8aN2zT41hgAO1jkgUJKLkOWUySqMQf6eSJofksU6IMMHedOou1IzG-cdIeZ24LNvkdnpOQgoovvb6dyMt8lo86vhRmmE6EoI4fjrN1U--MF&__tn__=-UK-R&c[0]=AT2lor8aEaWub3cdYU90Eykp25JXaJHlszUtCpW6kefTC08q41waabFZJ0cwdcgFmW5uIFHLaqoux4FRmD1kNKha_QMd9Lt0u1CORJw_pITq2ltrFkKYZiq8e_Fi9nDQERmlzAuHJqe8x-ms6ne78pGN9vZ-UtP1yfweEHXDD72wq-vQVD44greseoetTrZAe9m__u5y7Ay-52jOfWwvK-RKdsSvL4U7W-dClUEJlf0">
+                        href="https://api.whatsapp.com/send?phone=573214893676&text=Hola!,%20quiero%20informaci%C3%B3n!">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                     <a target="_blank" class="btn-ubi"
@@ -315,8 +333,11 @@
                         href="https://www.instagram.com/restrepoplaza/"><i
                             class="fa-brands fa-instagram"></i></a>
 
+                            
+
 
                             
                 </body>
+               
 
             </html>
