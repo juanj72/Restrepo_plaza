@@ -113,6 +113,30 @@
 
 }
 
+
+.replahotel-cont-banner-sec-27{
+    height: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/restrepo\ bello.jpg);
+    position: relative;
+    padding: 10%;
+    margin-bottom: 100px;
+}
+
+.replahotel-cont-banner-sec-27 .row{
+
+    background-color: rgba(1, 1, 1, 0.7);
+    color: #fff;
+    padding: 1%;
+
+}
+
+
+
+
 .replahotel-img{
 padding: 5%;
 }
