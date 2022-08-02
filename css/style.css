@@ -157,6 +157,18 @@ body{
 
       
 }
+.pulso a:hover{
+    background-color: #f09497;
+    border-radius: 20px;
+    color: aliceblue;
+    
+    
+}
+.pulso a{
+    font-size: 20px;
+    
+}
+
 
 
 .btn_what_sec{
